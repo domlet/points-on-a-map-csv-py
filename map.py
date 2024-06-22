@@ -5,7 +5,7 @@ import folium
 df = pd.read_csv('data.csv')
 
 # Create a map centered around the mean latitude and longitude
-m = folium.Map(location=[df['latitude'].mean(), df['longitude'].mean()], zoom_start=16)
+m = folium.Map(location=[df['latitude'].mean(), df['longitude'].mean()], zoom_start=12)
 
 # Add points to the map
 for _, row in df.iterrows():
@@ -15,4 +15,4 @@ for _, row in df.iterrows():
     ).add_to(m)
 
 # Save the map to an HTML file
-m.save('index.html')
+m.save('youMadeThisMap.html')
