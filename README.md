@@ -27,7 +27,6 @@ If you want to map your own locations, here's how to do it:
 
 1. If you made a mistake and you want to generate a new html file, delete the `youMadeThisMap.html` file and run the python script again. It will generate a new file.
 
-1. You can [watch this video](youtube.com) to see how the process described above works.
 
 
 ### Virtual Environment
@@ -65,7 +64,6 @@ Below are instructions to create the virtual environment. Video here.
 	python3 map.py
 	```
 	
-1. You can [watch this video](youtube.com) to see how the process described above works.
 
 ## Related project (CCPA Alumni Map)
 If you're interested in a more intricate map, see my [CCPA Alumni Map](https://github.com/domlet/alumni-map/), which uses JavaScript and MapboxGL to map data from several Google Sheets that publish to live CSV file. It's a wonderful solution for a more customized and interactive map application (that automatically updates when anyone completes a Google Form that adds a new row to a Google Sheet).
