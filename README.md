@@ -80,10 +80,11 @@ Follow the instructions below. Watch a video here.
    python3 make-map.py
    ```
 
-1. **After you are finished, remove your virtual environment:**
+1. **After you are finished, deactivate and delete your virtual environment:**
 
 ```
-sudo rm -rf venv
+deactivate
+rm -rf myenv
 ```
 
 You can [watch this video](youtube.com) to see the process ↑ described above should work.
