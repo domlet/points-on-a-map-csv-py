@@ -20,7 +20,7 @@ When I successfully "put dots on a map", I wrote this documentation so that I co
 
 ## View the map
 
-See the [live map here](https://domlet.github.io/oakland-map-landmarks/).
+See the [live map here](https://domlet.github.io/points-on-a-map-csv-py/).
 
 ## Make your own map
 
@@ -34,13 +34,13 @@ If you want to learn the Python workflow (which uses the [Pandas](https://www.go
 
 1. **Add your data.** Open your `data.csv` file and replace the data (below the header row) with your own values. The only two columns you actually need are `latitude` and `longitude`. Your data from the `name` column will appear in a map popup; the other columns will be ignored by default. Delete any rows that do not have values for both `latitude` and `longitude`.
 
-1. **Generate your map.** On your command line, navigate to your version of this repository and enter this command: `python3 map.py` (Assuming you already have Python 3 installed.) When you execute the python script, it will generate a file called `youMadeThisMap.html` which contains your map on a webpage. Open that file in a web browser (like Firefox or Chrome) to see your map.
+1. **Generate your map.** On your command line, navigate to your version of this repository and enter this command: `python3 make-map.py` (Assuming you already have Python 3 installed.) When you execute the python script, it will generate a file called `youMadeThisMap.html` which contains your map on a webpage. Open that file in a web browser (like Firefox or Chrome) to see your map.
 
 **Note:** If you experience a `ModuleNotFoundError` error, follow the steps in _Use a virtual environment_ (below) before you continue in this section.
 
 1. **Revise your map.** If you want make changes to your map (such as moving or adding markers), follow these steps: (1) revise your data in your CSV file and save it; (2) delete your `youMadeThisMap.html` file; (3) run the Python script again on your command line; (4) refresh your browser or open the new HTML file to see your updated map.
 
-1. You can [watch this video](youtube.com) to see how the process described above works.
+1. You can [watch this video](https://youtu.be/7gBaoCrY0Mg) to see how the process described above works.
 
 ### Use a virtual environment
 
@@ -82,12 +82,12 @@ Follow the instructions below. Watch a video here.
 
 1. **After you are finished, deactivate and delete your virtual environment:**
 
-```
-deactivate
-rm -rf myenv
-```
+   ```
+   deactivate
+   rm -rf myenv
+   ```
 
-You can [watch this video](youtube.com) to see the process ↑ described above should work.
+You can watch [this video](https://youtu.be/7gBaoCrY0Mg) to see the process ↑ described above should work.
 
 ## Get latitude and longitude coordinates
 
