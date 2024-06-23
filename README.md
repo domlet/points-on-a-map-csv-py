@@ -1,6 +1,6 @@
 # Add points to a map (using CSV file)
 
-<!--[![map of oakland california with 145 markers on the map](screenshot.JPG)](https://domlet.github.io/oakland-map-landmarks/)-->
+[![map of oakland california with 145 markers on the map](screenshot.JPG)](https://domlet.github.io/oakland-map-landmarks/)
 
 ## About
 
