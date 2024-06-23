@@ -80,6 +80,12 @@ Follow the instructions below. Watch a video here.
    python3 make-map.py
    ```
 
+1. **After you are finished, remove your virtual environment:**
+
+```
+sudo rm -rf venv
+```
+
 You can [watch this video](youtube.com) to see the process ↑ described above should work.
 
 ## Get latitude and longitude coordinates
