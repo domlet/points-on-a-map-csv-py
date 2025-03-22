@@ -22,9 +22,5 @@ for _, row in df.iterrows():
         popup=row['name']
     ).add_to(m)
 
-# fix for 1 tile
-print(map.getSize())
-map.getSize()
-
 # Save the map to an HTML file
 m.save('youMadeThisMap.html')
